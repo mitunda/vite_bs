@@ -1,4 +1,7 @@
 .jumbotron {
     margin: 20px; 
     /* for best practice, use vw and % */
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 30px;
 }
