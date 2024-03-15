@@ -1,25 +1,24 @@
 .home-container {
-    display: flex; /* Allow side-by-side arrangement */
-  }
-  
-  .photo-card {
-    flex: 1; /* Allocate equal space for photo and summary */
-    background-color: #f0f0f0; /* Adjust background color as needed */
-    padding: 20px;
-    text-align: center; /* Center the photo if desired */
-  }
-  
-  .photo-card img {
-    border-radius: 50%; /* Make the photo a circle (optional) */
-    /* Adjust width and height as needed */
-    width: 200px;
-    height: 200px;
-  }
-  
-  .summary-section {
-    flex: 2; /* Allocate twice the space for summary */
-    padding: 20px;
-  }
-  
-  /* You can add styles for h1, p, hr, and button here */
-  
+  display: flex; /* Allow side-by-side arrangement */
+}
+
+.photo-card {
+  flex: 1; /* Allocate equal space for photo and summary */
+  background-color: #f0f0f0; /* Adjust background color as needed */
+  padding: 20px;
+  text-align: center; /* Center the photo if desired */
+}
+
+.photo-card img {
+  border-radius: 50%; /* Make the photo a circle (optional) */
+  /* Adjust width and height as needed */
+  width: 200px;
+  height: 200px;
+}
+
+.summary-section {
+  flex: 2; /* Allocate twice the space for summary */
+  padding: 20px;
+}
+
+/* You can add styles for h1, p, hr, and button here */
