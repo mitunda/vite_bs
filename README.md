@@ -6,7 +6,7 @@
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Layout] (#layout)
+- [Layout](#layout)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
