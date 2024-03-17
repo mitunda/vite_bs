@@ -54,23 +54,27 @@ import Card from 'react-bootstrap/Card';
 const projects = [
   {
     title: 'Checkout Page Design',
-    text: 'A Checkout page for an ecommerce website',
+    text: 'A well-designed checkout page is crucial for a smooth user experience in any e-commerce website. This project showcases my ability to create a clean, intuitive, and secure checkout flow.',
     image: `checkout.png`, // Replace with your actual image URL
+    link: 'https://your-checkout-page-link.com', // Replace with your checkout page link
   },
   {
-    title: 'Sign in page design',
-    text: 'Another project description to showcase your work.',
+    title: 'Sign in Page Design',
+    text: 'An appealing sign-in page makes a great first impression and encourages users to register. This project demonstrates my skills in crafting an attractive and user-friendly sign-in interface.',
     image: 'signin.png', // Replace with your actual image URL
+    link: 'https://your-sign-in-page-link.com', // Replace with your sign-in page link
   },
   {
-    title: 'item page design',
-    text: 'Another project description to showcase your work.',
+    title: 'Item Page Design',
+    text: 'Compelling item pages are essential for capturing user interest and driving sales. This project highlights my expertise in designing clear, informative, and visually engaging item pages.',
     image: 'item.png', // Replace with your actual image URL
+    link: 'https://your-item-page-link.com', // Replace with your item page link
   },
   {
-    title: 'product page design',
-    text: 'Another project description to showcase your work.',
+    title: 'Product Page Design',
+    text: 'Effective product pages provide a comprehensive overview of product features and benefits. This project demonstrates my ability to create informative, visually appealing, and conversion-optimized product pages.',
     image: 'product.png', // Replace with your actual image URL
+    link: 'https://your-product-page-link.com', // Replace with your product page link
   },
   // Add more projects here
 ];
@@ -82,19 +86,21 @@ const About = () => {
     const shuffleInterval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * projects.length);
       setCurrentProject(projects[randomIndex]);
-    }, 4000); // Shuffle every 3 seconds
+    }, 5000); // Shuffle every 4 seconds
 
     return () => clearInterval(shuffleInterval); // Cleanup function to prevent memory leaks
   }, [projects]); // Dependency array to run the effect only once
 
   return (
     <div className='card_container'>
-      <Card style={{ width: '100rem' }}>
+      <Card style={{ width: '80rem' }}> {/* Adjust width as needed */}
         <Card.Img variant="top" src={currentProject.image} />
         <Card.Body>
           <Card.Title>{currentProject.title}</Card.Title>
           <Card.Text>{currentProject.text}</Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="primary" href={currentProject.link}>
+            See Project
+          </Button>
         </Card.Body>
       </Card>
     </div>

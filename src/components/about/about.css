@@ -3,4 +3,59 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 10px;
-}
+    background-color: #212529; /* Dark background */
+    color: #fff; /* White text for readability */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .card {
+    background-color: #343a40; /* Darker background for cards */
+    border: none; /* Remove default card border */
+    border-radius: 5px; /* Maintain rounded corners for cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 10px; /* Space between cards */
+    transition: all 0.2s ease-in-out; /* Smooth hover effect */
+    /* Customizations based on image size and layout preferences:  */
+    width: 300px; /* Adjust width based on image aspect ratio */
+    height: auto; /* Allow height to adapt to image and text content */
+    display: flex; /* Enable vertical or horizontal layouts */
+    flex-direction: column; /* Default to vertical layout */
+  }
+  
+  .card img {
+    border-radius: 5px 5px 0 0; /* Rounded top corners for cards */
+    /* Allow image to fill card width while maintaining aspect ratio: */
+    object-fit: cover;
+    width: 100%; /* Ensure image fills card width */
+    height: auto; /* Respect image aspect ratio */
+  }
+  
+  .card-body {
+    flex: 1; /* Allow body content to fill remaining space */
+    padding: 15px; /* Inner padding for content */
+  }
+  
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between title and text */
+  }
+  
+  .card-text {
+    line-height: 1.5; /* Improve line spacing for readability */
+  }
+  
+  .btn-primary {
+    background-color: #4CAF50; /* Green color for button */
+    border-color: #4CAF50; /* Green border for button */
+    transition: all 0.2s ease-in-out; /* Smooth button hover effect */
+    padding: 10px 20px; /* Adjust padding for button size */
+    margin-top: auto; /* Move button to bottom within card body */
+    align-self: flex-end; /* Align button to right side within card body */
+  }
+  
+  .btn-primary:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+    border-color: #3e8e41; /* Darker green border on hover */
+  }
+  
