@@ -82,7 +82,7 @@ const About = () => {
     const shuffleInterval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * projects.length);
       setCurrentProject(projects[randomIndex]);
-    }, 3000); // Shuffle every 3 seconds
+    }, 4000); // Shuffle every 3 seconds
 
     return () => clearInterval(shuffleInterval); // Cleanup function to prevent memory leaks
   }, [projects]); // Dependency array to run the effect only once
