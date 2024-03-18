@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-container">
       <div className="photo-card">
         {/* Add your image here */}
-        <img src="profile.jpg" alt="Photo" />
+        <img src="profile.png" alt="Photo" />
       </div>
       <div className="summary-section">
         <h1 className="display-4">Hello!</h1>
