@@ -93,7 +93,7 @@ const About = () => {
 
   return (
     <div className='card_container'>
-      <Card style={{ width: '80rem' }}> {/* Adjust width as needed */}
+      <Card style={{ width: '60rem' }}> {/* Adjust width as needed */}
         <Card.Img variant="top" src={currentProject.image} />
         <Card.Body>
           <Card.Title>{currentProject.title}</Card.Title>

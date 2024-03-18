@@ -1,0 +1,32 @@
+/* footer.css */
+.footer {
+    background-color: #23272a;
+    color: #e1e1e1;
+    padding: 2rem 0;
+  }
+  
+  .footer-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-link {
+    color: #e1e1e1;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-link:hover {
+    color: #7289da;
+  }
+  
+  .social-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #e1e1e1;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    color: #7289da;
+  }

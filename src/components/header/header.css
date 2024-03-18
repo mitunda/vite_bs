@@ -1,0 +1,20 @@
+.header-container {
+    background-color: #111;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    background-color: #111 !important;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #17a2b8 !important;
+  }
+  
