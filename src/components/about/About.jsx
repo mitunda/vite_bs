@@ -71,6 +71,18 @@ const projects = [
     link: 'https://your-item-page-link.com', // Replace with your item page link
   },
   {
+    title: 'Moringa Daily Dev',
+    text: 'A blog web app for developers where devs can access the content of their choice.',
+    image: 'moringa.png', // Replace with your actual image URL
+    link: 'https://github.com/winny52/Moringa-Daily-Dev-Client', // Replace with your product page link
+  },
+  {
+    title: 'Product Page Design',
+    text: 'Effective product pages provide a comprehensive overview of product features and benefits. This project demonstrates my ability to create informative, visually appealing, and conversion-optimized product pages.',
+    image: 'product.png', // Replace with your actual image URL
+    link: 'https://your-product-page-link.com', // Replace with your product page link
+  },
+  {
     title: 'Product Page Design',
     text: 'Effective product pages provide a comprehensive overview of product features and benefits. This project demonstrates my ability to create informative, visually appealing, and conversion-optimized product pages.',
     image: 'product.png', // Replace with your actual image URL
