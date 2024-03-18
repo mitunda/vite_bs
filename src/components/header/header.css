@@ -4,7 +4,7 @@
   }
   
   .navbar {
-    background-color: #111 !important;
+    background-color: #23272a !important;
   }
   
   .nav-link {
@@ -17,4 +17,22 @@
   .nav-link:hover {
     color: #17a2b8 !important;
   }
+  .navbar-toggler {
+    background-color: #697296;
+  }
+  .navbar-nav .nav-link {
+    color: #e1e1e1 !important;
+  }
   
+  .navbar-nav .nav-link:hover {
+    color: #7289da !important;
+  }
+  
+  .navbar-collapse {
+    background-color: #23272a;
+    border-radius: 0.5rem;
+    padding: 1rem;
+  }
+  .navbar-container {
+    margin-bottom: 2rem;
+  }
