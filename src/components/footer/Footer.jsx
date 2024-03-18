@@ -39,19 +39,19 @@ export default function App() {
             <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
                 <MDBIcon color='secondary' icon='gem' className='me-3' />
-                Company name
+                Peter Mitunda
               </h6>
-              <p>
+              {/* <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
                 amet, consectetur adipisicing elit.
-              </p>
+              </p> */}
             </MDBCol>
 
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  Angular
+                  Web Designing
                 </a>
               </p>
               <p>
@@ -61,18 +61,18 @@ export default function App() {
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Vue
+                  Python
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Laravel
+                  Javascript
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Quick Links</h6>
               <p>
                 <a href='#!' className='text-reset'>
                   Pricing
@@ -99,27 +99,27 @@ export default function App() {
               <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
-                New York, NY 10012, US
+                10012, KE
               </p>
               <p>
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
-                info@example.com
+                peterbrian28@gmail.com
               </p>
               <p>
-                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
+                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 254-700-748-246
               </p>
-              <p>
+              {/* <p>
                 <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
-              </p>
+              </p> */}
             </MDBCol>
           </MDBRow>
         </MDBContainer>
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+        © 2024 Copyright:
+        <a className='text-reset fw-bold' href='https://github.com/mitunda'>
+          MITUNDA
         </a>
       </div>
     </MDBFooter>
