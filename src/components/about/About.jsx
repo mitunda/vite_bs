@@ -50,6 +50,7 @@ import React, { useState, useEffect } from 'react';
 import "./about.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Projects from './Projects';
 
 const projects = [
   {
@@ -114,7 +115,9 @@ const About = () => {
             See Project
           </Button>
         </Card.Body>
+        <Projects />
       </Card>
+     
     </div>
   );
 };
